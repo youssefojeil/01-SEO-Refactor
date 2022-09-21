@@ -15,16 +15,13 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
-    color: #d9dcd6;
-}
 
-header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,13 +29,15 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+nav ul {
     list-style-type: none;
+    
 }
 
-header nav ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
+    
 }
 
 a {
@@ -50,7 +49,19 @@ p {
     font-size: 16px;
 }
 
-.hero {
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -58,6 +69,11 @@ p {
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
+}
+
+
+.seo {
+    color: #d9dcd6;
 }
 
 .float-left {
@@ -123,16 +139,4 @@ p {
 .main-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
 }
