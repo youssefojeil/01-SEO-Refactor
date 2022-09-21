@@ -1,5 +1,5 @@
 # 01-SEO-Refactor
-challenge 1 
+
 
 ## Description
 
